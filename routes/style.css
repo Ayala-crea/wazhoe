@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+
+/*              Sass Template           */
+/*  global classes  */
+button,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* typography classes */
+.font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+    font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+/* Color Template  */
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background: #003859;
+}
+
+.color-second {
+    color: #00A5C4;
+}
+
+.color-second-bg {
+    background: #00A5C4;
+}
+
+.color-yellow {
+    color: #FFD289;
+}
+
+.color-yellow-bg {
+    background: #FFD289;
+}
+
+/*  top sale template   */
+#top-sale .container h4 {
+    margin-left: 100px;
+}
+
+#top-sale .owl-carousel .item .product a {
+    overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
+}
+
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+.searchInput {
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder {
+    color: lightgray;
+}
+
+#main .container h5 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-weight: 500;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+html,
+body {
+    height: 100%;
+}
+
+body.my-login-page {
+    background-color: #f7f9fb;
+    font-size: 14px;
+}
+
+.my-login-page .brand {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+    position: relative;
+    z-index: 1;
+}
+
+.my-login-page .brand img {
+    width: 100%;
+    text-align: center;
+}
+
+.my-login-page .card-wrapper {
+    width: 400px;
+}
+
+.my-login-page .card {
+    border-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+}
+
+.my-login-page .card.fat {
+    padding: 10px;
+}
+
+.my-login-page .card .card-title {
+    margin-bottom: 30px;
+}
+
+.my-login-page .form-control {
+    border-width: 2.3px;
+}
+
+.my-login-page .form-group label {
+    width: 100%;
+}
+
+.my-login-page .btn.btn-block {
+    padding: 12px 10px;
+}
+
+.my-login-page .footer {
+    margin: 40px 0;
+    color: #888;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .my-login-page .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .my-login-page .card.fat {
+        padding: 0;
+    }
+
+    .my-login-page .card.fat .card-body {
+        padding: 15px;
+    }
+}
+
+#banner-area .item {
+    position: relative;
+}
+
+#banner-area .item p {
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+#banner-area .item button {
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    border-radius: 10%;
+    background-color: #003859;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+#banner-area .item img,
+#banner-area .item video {
+    max-width: 100%;
+    height: auto;
+}
